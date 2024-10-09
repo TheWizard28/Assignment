@@ -1,7 +1,7 @@
 import re
 #These will be the variables in authenticating the users input
-pat1 = r'\d{3}d{3}-\d{d}'
-pat2 = r'\d{3}\d{2}-\d{4}$'
+pat1 = r'\d{3}-\d{3}-\d{d}'
+pat2 = r'\d{3}-\d{2}-\d{4}$'
 pat3 = r'\d{5}'
 print('Please enter your phone number, Social Security Number, or Zip Code')
 #This will display examples to the user for what is required
