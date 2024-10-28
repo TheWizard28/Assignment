@@ -4,11 +4,11 @@ lines = list (file)
 file_contents = file.read()
 print(lines)
 file.close()
-words_all = 0
+sentence_all = 0
 
 for line in lines:
-    words_all = words_all + len(line.split())
-    print('Total number of words: ',words_all)
+    sentence_all = sentence_all + len(line.split())
+    print('Total number of sentences: ',sentence_all)
 
 full_stops = 0
 for stop in lines:
